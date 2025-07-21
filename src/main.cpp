@@ -11,8 +11,6 @@
 #include "rgb_lcd.h"                // include rgb_lcd library
 
 rgb_lcd lcd;                        // make lcd an instance of rgb_lcd
-char buf[10];                       // buf is an array that will store data from Bluefruit
-int red,green,blue=0;               // red , green and blue colors are set to 0
 
 void setup() 
 {
